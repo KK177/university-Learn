@@ -1,0 +1,16 @@
+PODS:
+  - SDAutoLayout (2.2.1)
+
+DEPENDENCIES:
+  - SDAutoLayout
+
+SPEC REPOS:
+  trunk:
+    - SDAutoLayout
+
+SPEC CHECKSUMS:
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+
+PODFILE CHECKSUM: a76300b6db30e0cd8d2f7a54a2d67b4f22b80436
+
+COCOAPODS: 1.9.3

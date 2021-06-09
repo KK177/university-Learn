@@ -1,0 +1,6 @@
+framework module Pods_OCCalculator_OCCalculatorUITests {
+  umbrella header "Pods-OCCalculator-OCCalculatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

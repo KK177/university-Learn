@@ -1,0 +1,982 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01686953CD3D80119BE2E79E920E21C0 /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E90707C25E32926BD67A9D9F4DB689AF /* SDAutoLayout-dummy.m */; };
+		1891A4494E2715FE76FDEE2C2F24220D /* Pods-OCCalculatorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC69646949120CAE67D64D740A21297F /* Pods-OCCalculatorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2129D253E3E521D7FB7239C0F714C9EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		235A7B18D7FA88F57E3D16919B4A31C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F45860B7F23EAC0D108F5AA7C85E4FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F7A7E7060578A2E22141D37FCD0E99C /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8CE06445FDB0B36437C7458941A0F6 /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBA5ABE2FCC7081313DE21A5C8F311D /* Pods-OCCalculator-OCCalculatorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5D092D4CAFE52C85A1A7E1FE1BB292 /* Pods-OCCalculator-OCCalculatorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74DCBC98B76908869FD23A65B6645252 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E992834CE981E914978A080BC461656 /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		824870F519CB0826C1156BA0B1EBD2F2 /* SDAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD4393780F6C3656D461A1952C2C1C4 /* SDAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82C27DBE5B9066334B9F216EE7589E4F /* Pods-OCCalculator-OCCalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ACD5C3696BD4ACB88D09E7DD518208 /* Pods-OCCalculator-OCCalculatorUITests-dummy.m */; };
+		B71488653D02BD06356F0E8025851538 /* Pods-OCCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881EFFECD996AEA89FA98E88F2737839 /* Pods-OCCalculator-dummy.m */; };
+		BCD5541CA37B64DFDF167614CF9A6307 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = AD96A29500841A7D0BB9B0FAEB56078F /* UITableView+SDAutoTableViewCellHeight.m */; };
+		BD9EE35640A512ECECEAB7B25CB783B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D2B67B0AD9D2BB06A45268778DC5CC3F /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A4C301F2EA6BB37E3F3718063B18D /* UIView+SDAutoLayout.m */; };
+		D7B94D6F6F61072F44EDB9D7C279015B /* Pods-OCCalculator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD21993E782138E501D5E0B53D259ECB /* Pods-OCCalculator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F943D1DA453AD945CF5DF32ED274992A /* Pods-OCCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795CC1B665EBF39962854B3F1663F651 /* Pods-OCCalculatorTests-dummy.m */; };
+		FB0822F79D370CD5CF7C51979A0271BE /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5CCF047FDB9D4368732A53386EE14F /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776D413E50383449B72ADD5FF3B0BD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03932C47FBFD347205B2F367F78E9B63;
+			remoteInfo = SDAutoLayout;
+		};
+		B10AC5C2A5D63B8E572E39286039B6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03932C47FBFD347205B2F367F78E9B63;
+			remoteInfo = SDAutoLayout;
+		};
+		E86049854757C4C2D0862C6FFE1BC642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97C48B267908B03028E5FBF512D0A27;
+			remoteInfo = "Pods-OCCalculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121A4C301F2EA6BB37E3F3718063B18D /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		12E55273E66AC66D0E2ED11949A8BFB5 /* SDAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDAutoLayout.modulemap; sourceTree = "<group>"; };
+		17A4466F6794B7719B678A28DC9B6626 /* SDAutoLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.release.xcconfig; sourceTree = "<group>"; };
+		1AFAF59DB920B6C8D046A7B2C2E28ADB /* Pods-OCCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B4933685061F7E4ECF4929FD1ADA3EB /* Pods-OCCalculator-OCCalculatorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCalculator-OCCalculatorUITests-Info.plist"; sourceTree = "<group>"; };
+		2B6A3980EFE8B276D3031588768FFE63 /* Pods-OCCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDAutoLayout.framework; path = SDAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD12514D396DAA264CEFF3BDDFA8D28 /* Pods-OCCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30D5DB6CFE59D13A66D611501FF80115 /* Pods-OCCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		358B70731DFB8B29F73D2B37A4B5013D /* Pods-OCCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		3E8CE06445FDB0B36437C7458941A0F6 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		4F5CCF047FDB9D4368732A53386EE14F /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
+		58DAD12410C61254518FB364CD0D8DEF /* Pods-OCCalculator-OCCalculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCalculator-OCCalculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		58E8DF820B2724F057F0B9345F052170 /* Pods-OCCalculator-OCCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCalculator-OCCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5924205D6823BC03A3278EE595C4E56F /* Pods-OCCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E992834CE981E914978A080BC461656 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		795CC1B665EBF39962854B3F1663F651 /* Pods-OCCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		7E20F0AC240303E92EF1F51973B219F4 /* Pods-OCCalculatorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCCalculatorTests.modulemap"; sourceTree = "<group>"; };
+		7F966AF4311D20D301696AFBD250DF67 /* SDAutoLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.debug.xcconfig; sourceTree = "<group>"; };
+		7FE99431F88B5953FC462AA93020AB66 /* Pods-OCCalculatorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		81ACD5C3696BD4ACB88D09E7DD518208 /* Pods-OCCalculator-OCCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCalculator-OCCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		881EFFECD996AEA89FA98E88F2737839 /* Pods-OCCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCalculator-dummy.m"; sourceTree = "<group>"; };
+		892FE441311198FF6D6F4E66D6365825 /* Pods_OCCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCalculatorTests.framework; path = "Pods-OCCalculatorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3F40A401D00806102FE6ACBB987BFB /* Pods-OCCalculator-OCCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCalculator-OCCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BD4393780F6C3656D461A1952C2C1C4 /* SDAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		8D331E0AEB3B418F479A5EFE0BB68930 /* Pods_OCCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCalculator.framework; path = "Pods-OCCalculator.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908C00747437B7860074138F7782CFA9 /* Pods-OCCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94F256A817CDDA768B1DD96D53B014AB /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4B9F36FC3BEB1BF268F87EA1A6E599A /* SDAutoLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDAutoLayout-Info.plist"; sourceTree = "<group>"; };
+		AC69646949120CAE67D64D740A21297F /* Pods-OCCalculatorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCalculatorTests-umbrella.h"; sourceTree = "<group>"; };
+		AD96A29500841A7D0BB9B0FAEB56078F /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		B4D710358169D194674AFFA3DF9908F0 /* Pods-OCCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		B5FD8B90EBFB90E2E40818E3D68C953D /* Pods-OCCalculator-OCCalculatorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCCalculator-OCCalculatorUITests.modulemap"; sourceTree = "<group>"; };
+		BB5D092D4CAFE52C85A1A7E1FE1BB292 /* Pods-OCCalculator-OCCalculatorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCalculator-OCCalculatorUITests-umbrella.h"; sourceTree = "<group>"; };
+		BD21993E782138E501D5E0B53D259ECB /* Pods-OCCalculator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCalculator-umbrella.h"; sourceTree = "<group>"; };
+		CEBEDCB50FC3DB8455A0780A4A72A484 /* Pods-OCCalculator-OCCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCalculator-OCCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D008B4EE20EACCF6DD31D631D8A1245F /* Pods-OCCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E90707C25E32926BD67A9D9F4DB689AF /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		ED25BAB89C5DC5A64EE1B86C3F32DEAB /* Pods-OCCalculator-OCCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCalculator-OCCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1008B6A80389F07ADC016317F7E1A6F /* Pods-OCCalculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OCCalculator.modulemap"; sourceTree = "<group>"; };
+		F52B8E45EE8C2C3489717E947E85502F /* Pods-OCCalculator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCalculator-Info.plist"; sourceTree = "<group>"; };
+		F8B8468EAFA69655246258D4F35EAC88 /* Pods_OCCalculator_OCCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCalculator_OCCalculatorUITests.framework; path = "Pods-OCCalculator-OCCalculatorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315DBD7774C0D6B01071F4DD1655B081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235A7B18D7FA88F57E3D16919B4A31C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF03889469C28E20555DE3D49B68EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9EE35640A512ECECEAB7B25CB783B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9803DC64B4872BED2F28807BAAA67B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F45860B7F23EAC0D108F5AA7C85E4FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0F2441C69A28B25FFFF41D60C41A322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2129D253E3E521D7FB7239C0F714C9EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B24FD946266BD304DD09D4268C4D2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D331E0AEB3B418F479A5EFE0BB68930 /* Pods_OCCalculator.framework */,
+				F8B8468EAFA69655246258D4F35EAC88 /* Pods_OCCalculator_OCCalculatorUITests.framework */,
+				892FE441311198FF6D6F4E66D6365825 /* Pods_OCCalculatorTests.framework */,
+				2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AF5686204E52A4FD05A194F18802064 /* Pods-OCCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F1008B6A80389F07ADC016317F7E1A6F /* Pods-OCCalculator.modulemap */,
+				D008B4EE20EACCF6DD31D631D8A1245F /* Pods-OCCalculator-acknowledgements.markdown */,
+				1AFAF59DB920B6C8D046A7B2C2E28ADB /* Pods-OCCalculator-acknowledgements.plist */,
+				881EFFECD996AEA89FA98E88F2737839 /* Pods-OCCalculator-dummy.m */,
+				30D5DB6CFE59D13A66D611501FF80115 /* Pods-OCCalculator-frameworks.sh */,
+				F52B8E45EE8C2C3489717E947E85502F /* Pods-OCCalculator-Info.plist */,
+				BD21993E782138E501D5E0B53D259ECB /* Pods-OCCalculator-umbrella.h */,
+				358B70731DFB8B29F73D2B37A4B5013D /* Pods-OCCalculator.debug.xcconfig */,
+				B4D710358169D194674AFFA3DF9908F0 /* Pods-OCCalculator.release.xcconfig */,
+			);
+			name = "Pods-OCCalculator";
+			path = "Target Support Files/Pods-OCCalculator";
+			sourceTree = "<group>";
+		};
+		8EEBD7F334A0FDBFC44F768FDA6CAB9B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AF5686204E52A4FD05A194F18802064 /* Pods-OCCalculator */,
+				9AB2E4BB3F3B2B63C742407945EE8E35 /* Pods-OCCalculator-OCCalculatorUITests */,
+				D6030054D3D45C33106B11AF09E1611D /* Pods-OCCalculatorTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		92B91AEFBE4455444A9791FA5B590507 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4F5CCF047FDB9D4368732A53386EE14F /* SDAutoLayout.h */,
+				6E992834CE981E914978A080BC461656 /* UITableView+SDAutoTableViewCellHeight.h */,
+				AD96A29500841A7D0BB9B0FAEB56078F /* UITableView+SDAutoTableViewCellHeight.m */,
+				3E8CE06445FDB0B36437C7458941A0F6 /* UIView+SDAutoLayout.h */,
+				121A4C301F2EA6BB37E3F3718063B18D /* UIView+SDAutoLayout.m */,
+				F9E7D5CEE723AD5C8B647B45F181927D /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		9AB2E4BB3F3B2B63C742407945EE8E35 /* Pods-OCCalculator-OCCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5FD8B90EBFB90E2E40818E3D68C953D /* Pods-OCCalculator-OCCalculatorUITests.modulemap */,
+				ED25BAB89C5DC5A64EE1B86C3F32DEAB /* Pods-OCCalculator-OCCalculatorUITests-acknowledgements.markdown */,
+				8A3F40A401D00806102FE6ACBB987BFB /* Pods-OCCalculator-OCCalculatorUITests-acknowledgements.plist */,
+				81ACD5C3696BD4ACB88D09E7DD518208 /* Pods-OCCalculator-OCCalculatorUITests-dummy.m */,
+				58DAD12410C61254518FB364CD0D8DEF /* Pods-OCCalculator-OCCalculatorUITests-frameworks.sh */,
+				1B4933685061F7E4ECF4929FD1ADA3EB /* Pods-OCCalculator-OCCalculatorUITests-Info.plist */,
+				BB5D092D4CAFE52C85A1A7E1FE1BB292 /* Pods-OCCalculator-OCCalculatorUITests-umbrella.h */,
+				CEBEDCB50FC3DB8455A0780A4A72A484 /* Pods-OCCalculator-OCCalculatorUITests.debug.xcconfig */,
+				58E8DF820B2724F057F0B9345F052170 /* Pods-OCCalculator-OCCalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-OCCalculator-OCCalculatorUITests";
+			path = "Target Support Files/Pods-OCCalculator-OCCalculatorUITests";
+			sourceTree = "<group>";
+		};
+		A37EA81EA0E5FE77443ED048D65EFF08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92B91AEFBE4455444A9791FA5B590507 /* SDAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A37EA81EA0E5FE77443ED048D65EFF08 /* Pods */,
+				0B24FD946266BD304DD09D4268C4D2E3 /* Products */,
+				8EEBD7F334A0FDBFC44F768FDA6CAB9B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6030054D3D45C33106B11AF09E1611D /* Pods-OCCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E20F0AC240303E92EF1F51973B219F4 /* Pods-OCCalculatorTests.modulemap */,
+				2FD12514D396DAA264CEFF3BDDFA8D28 /* Pods-OCCalculatorTests-acknowledgements.markdown */,
+				5924205D6823BC03A3278EE595C4E56F /* Pods-OCCalculatorTests-acknowledgements.plist */,
+				795CC1B665EBF39962854B3F1663F651 /* Pods-OCCalculatorTests-dummy.m */,
+				7FE99431F88B5953FC462AA93020AB66 /* Pods-OCCalculatorTests-Info.plist */,
+				AC69646949120CAE67D64D740A21297F /* Pods-OCCalculatorTests-umbrella.h */,
+				908C00747437B7860074138F7782CFA9 /* Pods-OCCalculatorTests.debug.xcconfig */,
+				2B6A3980EFE8B276D3031588768FFE63 /* Pods-OCCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-OCCalculatorTests";
+			path = "Target Support Files/Pods-OCCalculatorTests";
+			sourceTree = "<group>";
+		};
+		F9E7D5CEE723AD5C8B647B45F181927D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E55273E66AC66D0E2ED11949A8BFB5 /* SDAutoLayout.modulemap */,
+				E90707C25E32926BD67A9D9F4DB689AF /* SDAutoLayout-dummy.m */,
+				A4B9F36FC3BEB1BF268F87EA1A6E599A /* SDAutoLayout-Info.plist */,
+				94F256A817CDDA768B1DD96D53B014AB /* SDAutoLayout-prefix.pch */,
+				8BD4393780F6C3656D461A1952C2C1C4 /* SDAutoLayout-umbrella.h */,
+				7F966AF4311D20D301696AFBD250DF67 /* SDAutoLayout.debug.xcconfig */,
+				17A4466F6794B7719B678A28DC9B6626 /* SDAutoLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03C29D031B1BEF414B134E0AF9A72039 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B94D6F6F61072F44EDB9D7C279015B /* Pods-OCCalculator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C2AC46106F74D912BEC13E9AAEC18A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1891A4494E2715FE76FDEE2C2F24220D /* Pods-OCCalculatorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57399B79E8611617BEDE42677CA447E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBA5ABE2FCC7081313DE21A5C8F311D /* Pods-OCCalculator-OCCalculatorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8673A6F8FABF8EB7BB19B3B80A08FB0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824870F519CB0826C1156BA0B1EBD2F2 /* SDAutoLayout-umbrella.h in Headers */,
+				FB0822F79D370CD5CF7C51979A0271BE /* SDAutoLayout.h in Headers */,
+				74DCBC98B76908869FD23A65B6645252 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				4F7A7E7060578A2E22141D37FCD0E99C /* UIView+SDAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03932C47FBFD347205B2F367F78E9B63 /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F12BF35459EEB8D99D3D5950FD5B63 /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				8673A6F8FABF8EB7BB19B3B80A08FB0B /* Headers */,
+				ABA965C7D39C9BB2689CFD564365A313 /* Sources */,
+				ADF03889469C28E20555DE3D49B68EA2 /* Frameworks */,
+				3F53804D04372B1370BD341B0ED12D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 2D24B4853EF5CE5AD7D4FA5E183BD6E2 /* SDAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1250CAF71B6A0CED10EB6D99AE2904E3 /* Pods-OCCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218B57F94135D998F75627661079C4B5 /* Build configuration list for PBXNativeTarget "Pods-OCCalculatorTests" */;
+			buildPhases = (
+				34C2AC46106F74D912BEC13E9AAEC18A /* Headers */,
+				0CB4D0F897EA8465FC1552954B5E16CB /* Sources */,
+				D0F2441C69A28B25FFFF41D60C41A322 /* Frameworks */,
+				9F6E3C89B944BB09E46B415B9300C0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10035AE7DBD531B576F90691ABF9B874 /* PBXTargetDependency */,
+			);
+			name = "Pods-OCCalculatorTests";
+			productName = "Pods-OCCalculatorTests";
+			productReference = 892FE441311198FF6D6F4E66D6365825 /* Pods_OCCalculatorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DA998EFE623E75EF2C49BF825BA2F1B /* Pods-OCCalculator-OCCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD541A1A92F6F30A874E39A29FA99F43 /* Build configuration list for PBXNativeTarget "Pods-OCCalculator-OCCalculatorUITests" */;
+			buildPhases = (
+				57399B79E8611617BEDE42677CA447E9 /* Headers */,
+				C46F460DDE525DAD116227506DD98434 /* Sources */,
+				315DBD7774C0D6B01071F4DD1655B081 /* Frameworks */,
+				0AD08F4A9E920E19845BA92CD48D50CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371B9C2CF5C82FED4222747F073A3005 /* PBXTargetDependency */,
+			);
+			name = "Pods-OCCalculator-OCCalculatorUITests";
+			productName = "Pods-OCCalculator-OCCalculatorUITests";
+			productReference = F8B8468EAFA69655246258D4F35EAC88 /* Pods_OCCalculator_OCCalculatorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C97C48B267908B03028E5FBF512D0A27 /* Pods-OCCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03817CE51A23E414EEBECB7565894D88 /* Build configuration list for PBXNativeTarget "Pods-OCCalculator" */;
+			buildPhases = (
+				03C29D031B1BEF414B134E0AF9A72039 /* Headers */,
+				06A3F42198F19233DD1D2D424BAE0212 /* Sources */,
+				C9803DC64B4872BED2F28807BAAA67B0 /* Frameworks */,
+				7B2295F8E801F762538BC5BB46D8C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6A2FAE89B51D1877C1847C4300842E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-OCCalculator";
+			productName = "Pods-OCCalculator";
+			productReference = 8D331E0AEB3B418F479A5EFE0BB68930 /* Pods_OCCalculator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B24FD946266BD304DD09D4268C4D2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97C48B267908B03028E5FBF512D0A27 /* Pods-OCCalculator */,
+				7DA998EFE623E75EF2C49BF825BA2F1B /* Pods-OCCalculator-OCCalculatorUITests */,
+				1250CAF71B6A0CED10EB6D99AE2904E3 /* Pods-OCCalculatorTests */,
+				03932C47FBFD347205B2F367F78E9B63 /* SDAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD08F4A9E920E19845BA92CD48D50CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F53804D04372B1370BD341B0ED12D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2295F8E801F762538BC5BB46D8C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6E3C89B944BB09E46B415B9300C0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A3F42198F19233DD1D2D424BAE0212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71488653D02BD06356F0E8025851538 /* Pods-OCCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CB4D0F897EA8465FC1552954B5E16CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F943D1DA453AD945CF5DF32ED274992A /* Pods-OCCalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA965C7D39C9BB2689CFD564365A313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01686953CD3D80119BE2E79E920E21C0 /* SDAutoLayout-dummy.m in Sources */,
+				BCD5541CA37B64DFDF167614CF9A6307 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				D2B67B0AD9D2BB06A45268778DC5CC3F /* UIView+SDAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46F460DDE525DAD116227506DD98434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C27DBE5B9066334B9F216EE7589E4F /* Pods-OCCalculator-OCCalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10035AE7DBD531B576F90691ABF9B874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OCCalculator";
+			target = C97C48B267908B03028E5FBF512D0A27 /* Pods-OCCalculator */;
+			targetProxy = E86049854757C4C2D0862C6FFE1BC642 /* PBXContainerItemProxy */;
+		};
+		371B9C2CF5C82FED4222747F073A3005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = 03932C47FBFD347205B2F367F78E9B63 /* SDAutoLayout */;
+			targetProxy = 776D413E50383449B72ADD5FF3B0BD6F /* PBXContainerItemProxy */;
+		};
+		E6A2FAE89B51D1877C1847C4300842E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = 03932C47FBFD347205B2F367F78E9B63 /* SDAutoLayout */;
+			targetProxy = B10AC5C2A5D63B8E572E39286039B6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3935152CF4E1571505F50BD733D101A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908C00747437B7860074138F7782CFA9 /* Pods-OCCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCalculatorTests/Pods-OCCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCalculatorTests/Pods-OCCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DFE188A1DE4AD3188601D2548422552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358B70731DFB8B29F73D2B37A4B5013D /* Pods-OCCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCalculator/Pods-OCCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCalculator/Pods-OCCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E6C1696C90F2C6431BAE99E3051B8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBEDCB50FC3DB8455A0780A4A72A484 /* Pods-OCCalculator-OCCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCalculator-OCCalculatorUITests/Pods-OCCalculator-OCCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCalculator-OCCalculatorUITests/Pods-OCCalculator-OCCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61E85156BFE76BFFBFDC26EE12010AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F966AF4311D20D301696AFBD250DF67 /* SDAutoLayout.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = SDAutoLayout;
+				PRODUCT_NAME = SDAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		672A50A9811F8A9F389D792B13F37873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E8DF820B2724F057F0B9345F052170 /* Pods-OCCalculator-OCCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCalculator-OCCalculatorUITests/Pods-OCCalculator-OCCalculatorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCalculator-OCCalculatorUITests/Pods-OCCalculator-OCCalculatorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A4AE49F55C58785EC0C89A798AA3441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6A3980EFE8B276D3031588768FFE63 /* Pods-OCCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCalculatorTests/Pods-OCCalculatorTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCalculatorTests/Pods-OCCalculatorTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9A0AD16754D38FC3ED05A1B26BAAFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D710358169D194674AFFA3DF9908F0 /* Pods-OCCalculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCalculator/Pods-OCCalculator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCalculator/Pods-OCCalculator.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5E3B353C7AB4914E443E3B2ECBB42F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17A4466F6794B7719B678A28DC9B6626 /* SDAutoLayout.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SDAutoLayout/SDAutoLayout.modulemap";
+				PRODUCT_MODULE_NAME = SDAutoLayout;
+				PRODUCT_NAME = SDAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03817CE51A23E414EEBECB7565894D88 /* Build configuration list for PBXNativeTarget "Pods-OCCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFE188A1DE4AD3188601D2548422552 /* Debug */,
+				B9A0AD16754D38FC3ED05A1B26BAAFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F12BF35459EEB8D99D3D5950FD5B63 /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E85156BFE76BFFBFDC26EE12010AC7 /* Debug */,
+				E5E3B353C7AB4914E443E3B2ECBB42F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218B57F94135D998F75627661079C4B5 /* Build configuration list for PBXNativeTarget "Pods-OCCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935152CF4E1571505F50BD733D101A9 /* Debug */,
+				8A4AE49F55C58785EC0C89A798AA3441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD541A1A92F6F30A874E39A29FA99F43 /* Build configuration list for PBXNativeTarget "Pods-OCCalculator-OCCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6C1696C90F2C6431BAE99E3051B8C1 /* Debug */,
+				672A50A9811F8A9F389D792B13F37873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
